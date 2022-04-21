@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "770006746345",
+    "project_id": "food-delivery-danu",
+    "storage_bucket": "food-delivery-danu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770006746345:android:831e80fcacf9de15ff5c78",
+        "android_client_info": {
+          "package_name": "com.example.food_delivery_firebase_danu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770006746345-ks5da89vojt238qqrehc7u47po2rgt4k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.food_delivery_firebase_danu",
+            "certificate_hash": "f9e4123f067db92cac85e65e1e6f718d84aca61b"
+          }
+        },
+        {
+          "client_id": "770006746345-a15atc0gt23b3ikgvq0pnhc4linvvjsu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkyZgTCs0q5dnPZfXPILd8Ojos234jlLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770006746345-a15atc0gt23b3ikgvq0pnhc4linvvjsu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "770006746345-fc1e8a84a74sbclmrihgmf7gg0ul5vmg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.codekaze.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
