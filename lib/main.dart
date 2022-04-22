@@ -21,7 +21,6 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       home: DashboardView(),
-      // home: OrderExampleView(),
     );
   }
 }
