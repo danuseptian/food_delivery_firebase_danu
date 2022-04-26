@@ -6,7 +6,7 @@ Here are the details:
 - Getx State Management and View Controller structure for clean coding purpose
 - More than 15+ screens.
 
-apk : https://drive.google.com/file/d/1E7m3rTwpflFRicbJ07Dsa0h-nenOtNJZ/view?usp=sharing
+apk : https://drive.google.com/file/d/1-slAGcm73ni625XJUnPq5cd-vr839L1k/view?usp=sharing
 
 Feel free to see how i code and how i implement Firebase and Getx state management with view controller structure.
 
