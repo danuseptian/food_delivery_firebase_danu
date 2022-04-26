@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:food_delivery_firebase_danu/data/dummy.dart';
+import 'package:food_delivery_firebase_danu/modules/restaurant_list/restaurant_list_view.dart';
 import 'package:get/get.dart';
 
 import '../home_controller.dart';
@@ -29,12 +30,17 @@ class HomeCarouselBanner extends StatelessWidget {
             ),
             itemBuilder: (context, index, realIndex) {
               var item = carouselBanner[index];
-              return Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    fit: BoxFit.cover,
-                    image: AssetImage(
-                      '${item['carousel_image']}',
+              return InkWell(
+                onTap: () {
+                  Get.to(() => RestaurantListView());
+                },
+                child: Container(
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      fit: BoxFit.cover,
+                      image: AssetImage(
+                        '${item['carousel_image']}',
+                      ),
                     ),
                   ),
                 ),

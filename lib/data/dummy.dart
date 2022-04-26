@@ -42,6 +42,18 @@ List categories = [
   },
 ];
 
+List profileOption = [
+  'Payment Methods',
+  'Scheduled',
+  'Saved Places',
+  'Emergency Contacts',
+  'Business Profile',
+  'Help Centre',
+  'Settings',
+  'Share',
+  'Feedback'
+];
+
 List restaurants = [
   {
     'restaurant_image': 'assets/images/food-pizza.jpg',

@@ -1,9 +1,11 @@
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:food_delivery_firebase_danu/modules/checkout/checkout_controller.dart';
+import 'package:food_delivery_firebase_danu/service/firestore_service.dart';
 import 'package:get/get.dart';
 
 import '../../dashboard/dashboard_view.dart';
+import '../../restaurant_detail/restaurant_detail_controller.dart';
 
 class CheckoutPlaceOrder extends StatelessWidget {
   final dynamic restaurant;
@@ -12,13 +14,15 @@ class CheckoutPlaceOrder extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final controller = Get.find<CheckoutController>();
+    final restoDetailC = Get.find<RestaurantDetailController>();
+
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 20),
       height: 70,
       width: double.maxFinite,
       decoration: BoxDecoration(
-          color: Colors.deepOrange,
-          borderRadius: BorderRadius.vertical(top: Radius.circular(20.0))),
+        color: Colors.deepOrange,
+      ),
       child: Row(
         mainAxisSize: MainAxisSize.max,
         children: [
@@ -30,6 +34,8 @@ class CheckoutPlaceOrder extends StatelessWidget {
           Spacer(),
           IconButton(
               onPressed: () {
+                FirestoreService.addOrder(
+                    restaurant['name'], restoDetailC.getTotal());
                 controller.resetQty();
                 AwesomeDialog(
                   context: context,

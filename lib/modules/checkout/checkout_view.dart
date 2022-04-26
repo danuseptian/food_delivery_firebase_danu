@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_firebase_danu/modules/checkout/checkout_controller.dart';
 import 'package:food_delivery_firebase_danu/modules/checkout/widgets/checkout_total.dart';
+import 'package:food_delivery_firebase_danu/modules/restaurant_detail/restaurant_detail_controller.dart';
 import 'package:get/get.dart';
 
 import 'widgets/checkout_placeorder.dart';

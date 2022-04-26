@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_firebase_danu/modules/home/home_view.dart';
+import 'package:food_delivery_firebase_danu/modules/profile/profile_view.dart';
 import 'package:get/get.dart';
 
 import '../activity/activity_view.dart';
@@ -11,7 +12,7 @@ class DashboardController extends GetxController {
   List<Widget> bottomTabView = [
     HomeView(),
     ActivityView(),
-    Container(),
+    ProfileView(),
   ];
   @override
   void onInit() {
