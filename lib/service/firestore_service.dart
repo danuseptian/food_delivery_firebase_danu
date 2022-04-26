@@ -1,5 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:food_delivery_firebase_danu/data/dummy.dart';
 import 'package:intl/intl.dart';
 
 class FirestoreService {

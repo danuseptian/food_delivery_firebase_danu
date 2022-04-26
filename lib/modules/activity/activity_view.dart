@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:food_delivery_firebase_danu/modules/activity/activity_controller.dart';
 import 'package:food_delivery_firebase_danu/service/firestore_service.dart';
 import 'package:get/get.dart';
-import 'package:lottie/lottie.dart';
 
 class ActivityView extends StatelessWidget {
   const ActivityView({Key? key}) : super(key: key);

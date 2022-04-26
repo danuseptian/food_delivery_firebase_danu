@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:food_delivery_firebase_danu/service/fireauth_service.dart';
-import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
-
-import '../dashboard/dashboard_view.dart';
 
 class LoginView extends StatelessWidget {
   const LoginView({Key? key}) : super(key: key);
