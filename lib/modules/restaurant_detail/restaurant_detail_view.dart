@@ -78,7 +78,7 @@ class RestaurantDetailView extends StatelessWidget {
                               ),
                             ),
                             Container(
-                              width: 250,
+                              width: 220,
                               child: Row(
                                 children: [
                                   Text(
